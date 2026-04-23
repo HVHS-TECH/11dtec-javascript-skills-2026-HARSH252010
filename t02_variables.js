@@ -6,5 +6,19 @@ console.log("Car city")
 
 
 let name= Harsh
-let = 16
+let year= 2010
+let age=16
+let money=20
+
+
+//Variables
+
+
+/****************************
+Cars city
+****************************/
+  
+ /****************************
+  city
+  ****************************/
 
