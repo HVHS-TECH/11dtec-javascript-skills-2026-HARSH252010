@@ -11,6 +11,7 @@ let age=16
 let money=20
 
 
+
 //Variables
 
 
