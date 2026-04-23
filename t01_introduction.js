@@ -1,6 +1,5 @@
 /****************************
-in.
-Put your header comment here!
+introduction
 ****************************/
 console.log("Running t01_introduction.js")
 console.log(/*Insert your message here!*/)
@@ -10,4 +9,8 @@ console.log(/*Insert your message here!*/)
 /****************************
  * Main code
  * /****************************
+  
+ /****************************
+  Functions
+  /****************************
 
