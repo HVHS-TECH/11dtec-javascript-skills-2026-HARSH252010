@@ -8,4 +8,6 @@ console.log(/*Insert your message here!*/)
 // This is a single line comment
 
 /****************************
+ * Main code
+ * /****************************
 
