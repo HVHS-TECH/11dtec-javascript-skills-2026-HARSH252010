@@ -1,1 +1,6 @@
-/* Paste your code from task 1 here */
+/****************************
+Variables
+****************************/
+
+console.log("Car city")
+
