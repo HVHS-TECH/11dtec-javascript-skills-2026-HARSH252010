@@ -5,6 +5,8 @@ Variables
 console.log("Car city")
 
 
+
+  
 let name= Harsh
 let year= 2010
 let age=16
