@@ -12,7 +12,7 @@ let year= 2010;
 let age=16;
 let isstudent= true;
 let money=20;
-console.log("i am Harsh" + "My year 2010" + "My age 16 ");
+console.log("i am Harsh", + "My year 2010", + "My age 16",);
 
 
 //Variables
