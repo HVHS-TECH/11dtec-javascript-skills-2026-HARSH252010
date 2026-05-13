@@ -1,8 +1,7 @@
 /****************************
 functions parameters
 ****************************/
-function writeline(cars){
-    // I am Harsh were born in India
+function displayWelcome(Harsh){
     output.innerHTML += "<p>Less code matters</p>";
   }
 
