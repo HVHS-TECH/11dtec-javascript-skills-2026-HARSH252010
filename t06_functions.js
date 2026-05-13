@@ -8,7 +8,7 @@ function writeline(cars){
 
 
 console.log("Running t05 javascript js")
-console.log("Hello, World!")
+console.log("Hello World!")
 
 
 let Username= "Harsh"
@@ -17,6 +17,8 @@ let pocketmoney=20;
 let currentyear= 2036;
 
 const output = document.getElementById("spaceForJavaScriptOutput");
+
+
 
 
 
@@ -33,7 +35,7 @@ let userage = 16 + 2010;
 console.log("As of 2010 i am 16 years old");
 console.log("In 10 years i will be 26 years old");
 console.log("i have 20 dollors");
-
+console.log("Welcome to the shop")
 
 
 /****************************
