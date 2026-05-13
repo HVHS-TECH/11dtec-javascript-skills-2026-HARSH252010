@@ -3,7 +3,7 @@ functions
 ****************************/
 function writeline(){
     // I am Harsh were born in India
-    outputUTPUT.innerHTML += "<p>Less code matters</p>";
+    OUTPUT.innerHTML += "<p>Less code matters</p>";
   }
 
 
