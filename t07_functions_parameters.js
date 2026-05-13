@@ -2,7 +2,7 @@
 functions parameters
 ****************************/
 function displayWelcome(Harsh){
-    output.innerHTML += "<p>Less code matters</p>";
+    output.innerHTML += "<p>Welcome to the page"+Harsh+</p>;
   }
 
 
