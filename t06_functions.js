@@ -31,11 +31,9 @@ let yearborn = 2010 - 16;
 console.log("i am 16 years old " + 2010 );
 let userage = 16 + 2010;
 console.log("As of 2010 i am 16 years old");
-answer = num1 - num2;
 console.log("In 10 years i will be 26 years old");
-answer = num1 / num2;
 console.log("i have 20 dollors");
-answer = num1 / num2;
+
 
 
 /****************************
