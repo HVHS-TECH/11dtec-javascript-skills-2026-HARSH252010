@@ -3,7 +3,7 @@ functions
 ****************************/
 function writeline(cars){
     // I am Harsh were born in India
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
+    output.innerHTML += "<p>Less code matters</p>";
   }
 
 
@@ -17,7 +17,7 @@ let pocketmoney=20;
 let currentyear= 2036;
 
 const output = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Less code matters</P>";
+
 
 
 /****************************
