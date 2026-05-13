@@ -17,7 +17,7 @@ let pocketmoney=20;
 let currentyear= 2036;
 
 const output = document.getElementById("spaceForJavaScriptOutput");
-output.innerHTML="<h2>Added by Javascript</h2>";
+
 
 
 /****************************
