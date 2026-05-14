@@ -38,8 +38,8 @@ console.log("i have 20 dollors");
 console.log("Welcome to the shop");
 console.log("DisplayProduct");
 let userName = "Mr Quoc"
-displayWelcome("Mr Quoc");
-displayWelcome("")
+displayWelcome("Mr Quoc",16);
+displayWelcome("Mr Harsh",16)
 
 
 /****************************
