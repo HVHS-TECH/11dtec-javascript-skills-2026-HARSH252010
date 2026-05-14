@@ -39,6 +39,7 @@ console.log("Welcome to the shop");
 console.log("DisplayProduct");
 let userName = "Mr Quoc"
 displayWelcome("Mr Quoc");
+displayWelcome("")
 
 
 /****************************
