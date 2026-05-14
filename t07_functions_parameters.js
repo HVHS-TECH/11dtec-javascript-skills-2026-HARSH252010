@@ -36,7 +36,8 @@ console.log("In 10 years i will be 26 years old");
 console.log("i have 20 dollors");
 console.log("Welcome to the shop")
 console.log("DisplayProduct")
-l
+let userName = "Harsh"
+displayWelcome()
 
 
 /****************************
