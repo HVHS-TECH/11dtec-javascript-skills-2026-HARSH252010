@@ -41,7 +41,7 @@ let userName = "Mr Quoc"
 let username = "Mr Harsh"
 displayWelcome("Mr Quoc", 16);
 displayWelcome("Mr Harsh", 16);
-
+console.log()
 
 /****************************
 Functions
