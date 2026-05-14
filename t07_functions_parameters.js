@@ -2,8 +2,8 @@
 functions parameters
 ****************************/
 function displayWelcome(_name,_age){
-    output.innerHTML += "<p>Welcome to the page"+_name+"</p>";
-    output.innerHTML +="<p>you are"+_age+" years old</p>";
+    outpututput.innerHTML +="<p>Welcome to the page"+_name+"</p>";
+    Output.innerHTML +="<p>you are"+_age+"years old</p>";
   }
 
 
@@ -38,9 +38,9 @@ console.log("i have 20 dollors");
 console.log("Welcome to the shop");
 console.log("DisplayProduct");
 let userName = "Mr Quoc"
-let username = "<r Harsh"
-displayWelcome("Mr Quoc",16);
-displayWelcome("Mr Harsh",16);
+let username = "<Mr Harsh"
+displayWelcome("Mr Quoc", 16);
+displayWelcome("Mr Harsh", 16);
 
 
 /****************************
