@@ -2,7 +2,8 @@
 functions parameters
 ****************************/
 function displayWelcome(Harsh){
-    output.innerHTML += "<p>Welcome to the page";
+    output.innerHTML += "<p>Welcome to the page"+_name+"</p>";
+    output.innerHTML +="<p>you are"+_age+" years old</p>";
   }
 
 
