@@ -38,7 +38,7 @@ console.log("i have 20 dollors");
 console.log("Welcome to the shop");
 console.log("DisplayProduct");
 let userName = "Mr Quoc"
-let username = "<Mr Harsh"
+let username = "Mr Harsh"
 displayWelcome("Mr Quoc", 16);
 displayWelcome("Mr Harsh", 16);
 
