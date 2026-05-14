@@ -2,7 +2,7 @@
 functions parameters
 ****************************/
 function displayWelcome(Harsh){
-    output.innerHTML += "<p>Welcome to the page";
+    output.innerHTML += "<p>Welcome to the page"+_harsh+"</p>";
   }
 
 
@@ -36,8 +36,8 @@ console.log("In 10 years i will be 26 years old");
 console.log("i have 20 dollors");
 console.log("Welcome to the shop")
 console.log("DisplayProduct")
-let userName = "Harsh"
-displayWelcome("Mr Quoc");
+let userName = "Mr Harsh"
+displayWelcome("Mr Harsh");
 
 
 /****************************
