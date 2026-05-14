@@ -1,7 +1,7 @@
 /****************************
 functions parameters
 ****************************/
-function displayWelcome(Harsh){
+function displayWelcome(_name,_age){
     output.innerHTML += "<p>Welcome to the page"+_name+"</p>";
     output.innerHTML +="<p>you are"+_age+" years old</p>";
   }
