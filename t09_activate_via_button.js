@@ -7,7 +7,7 @@ function writeline(cars){
   }
 
 
-console.log("Running t06 function js")
+console.log("running t09 activate via button js")
 console.log("Hello World!")
 
 
