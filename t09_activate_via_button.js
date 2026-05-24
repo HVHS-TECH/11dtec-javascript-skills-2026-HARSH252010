@@ -1,5 +1,5 @@
 /****************************
-functions
+activate via button
 ****************************/
 function writeline(cars){
     // I am Harsh were born in India
