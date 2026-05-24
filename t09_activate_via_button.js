@@ -38,6 +38,7 @@ console.log("i have 20 dollors");
 console.log("Welcome to the shop")
 
 
+
 /****************************
 Functions
 ****************************/
