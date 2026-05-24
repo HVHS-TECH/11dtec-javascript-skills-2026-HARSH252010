@@ -41,7 +41,8 @@ let userName = "Mr Quoc"
 let username = "Mr Harsh"
 displayWelcome("Mr Quoc", 16);
 displayWelcome("Mr Harsh", 16);
-console.log("chocolate bar:","$4");
+
+("chocolate bar:","$4");
 console.log("chips:","$3");
 console.log("Drink:","$2.50");
 
