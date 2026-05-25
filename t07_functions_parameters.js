@@ -28,13 +28,13 @@ Main code
 
 
 console.log("Hii + Harsh");
-console.log("As of 2010 +  i am 16 ");
+console.log("As of 2010 +  I am 16 ");
 let yearborn = 2010 - 16;
-console.log("i am 16 years old " + 2010 );
+console.log("I am 16 years old " + 2010 );
 let userage = 16 + 2010;
 console.log("As of 2010 i am 16 years old");
 console.log("In 10 years i will be 26 years old");
-console.log("i have 20 dollors");
+console.log("I have 20 dollors");
 console.log("Welcome to the shop");
 console.log("DisplayProduct");
 let userName = "Mr Quoc"
