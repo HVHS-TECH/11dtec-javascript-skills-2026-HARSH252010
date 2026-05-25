@@ -35,17 +35,20 @@ let userage = 16 + 2010;
 console.log("As of 2010 i am 16 years old");
 console.log("In 10 years i will be 26 years old");
 console.log("I have 20 dollors");
+
+welcome 
 console.log("Welcome to the shop");
-console.log("DisplayProduct");
+
 let userName = "Mr Quoc"
 let username = "Mr Harsh"
-
-
 displayWelcome("Mr Quoc", 16);
 displayWelcome("Mr Harsh", 16);
+
+console.log("DisplayProduct");
 displayproduct("chocolate bar:","$4");
 displayproduct("chips:","$3");
 displayproduct("Drink:","$2.50");
+
 
 /****************************
 Functions
