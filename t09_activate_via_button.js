@@ -36,16 +36,10 @@ console.log("As of 2010 i am 16 years old");
 console.log("In 10 years i will be 26 years old");
 console.log("i have 20 dollors");
 console.log("Welcome to the shop")
-console.log("DisplayProduct");
-console.log("chocolate bar:","$4");
-console.log("chips:","$3");
-console.log("Drink:","$2.50");
+
 
 
 
 /****************************
 Functions
 ****************************/
-function Start(){
-  
-}
