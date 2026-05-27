@@ -12,6 +12,10 @@ console.log("Working with scope in Javascript")
 let name = "Harsh";
 console.log(name);
 
+let age = 16;
+console.log(age);
+
+
 const output = document.getElementById("output");
 
 
