@@ -9,7 +9,7 @@ var myVar = 0;
 functionOne();
 function functionOne() {
   myVar = 1;
- output.innerHTML += "functionone: "+myVar+"<br>";
+ output.innerHTML += "functionOne: "+myVar+"<br>";
 }
 
 functionTwo();
