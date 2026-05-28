@@ -16,6 +16,7 @@ let age = 16;
 console.log(age);
 
 
+
 const output = document.getElementById("output");
 
 
