@@ -38,10 +38,10 @@ function functionOne() {
 functionTwo();
 function functionTwo() {
   var myVar = 2;
- output.innerHTML += "functiontwo: "+myVar+"<br>";
+ 
 }
 
-output.innerHTML += "end: "+myVar+"<br>";
+
 
 
 
