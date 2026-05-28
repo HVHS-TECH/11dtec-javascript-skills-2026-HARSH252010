@@ -27,12 +27,12 @@ OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
 
 
 var myVar = 0;
-OUTPUT.innerHTML += "Start: " + myVar + "<br>";
+
 
 functionOne();
 function functionOne() {
   myVar = 1;
- output.innerHTML += "functionOne: "+myVar+"<br>";
+
 }
 
 functionTwo();
