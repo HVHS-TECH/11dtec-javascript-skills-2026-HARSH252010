@@ -23,8 +23,6 @@ const output = document.getElementById("output");
 
  
 var myVar = 0;
- 
-
 functionOne();
 function functionOne() {
   myVar = 1;
