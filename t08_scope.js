@@ -16,7 +16,7 @@ let age = 16;
 console.log(age);
 
 let food = ["pizza", "drink", "fruit"];
-
+console.log=(food);
 const output = document.getElementById("output");
 
 
