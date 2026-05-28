@@ -19,10 +19,16 @@ let food = ["pizza", "drink", "fruit"];
 console.log=(food);
 const output = document.getElementById("output");
 
+function displayWelcome(name, age){
+//Display a welcome message to the user
+OUTPUT.innerHTML += "<p>Welcome, "+name+"! </p>";
+OUTPUT.innerHTML += "<p>You are "+age+" years old.</p>";
+}
 
 
- 
 var myVar = 0;
+OUTPUT.innerHTML += "Start: " + myVar + "<br>";
+
 functionOne();
 function functionOne() {
   myVar = 1;
