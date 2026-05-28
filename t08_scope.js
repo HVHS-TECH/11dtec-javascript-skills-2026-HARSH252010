@@ -19,7 +19,9 @@ let food = ["pizza", "drink", "fruit"];
 console.log=(food);
 
 let cars = ["bmw m4", "gtr r35", "mustang gt"];
-console.log=
+console.log=(cars)
+
+let 
 const output = document.getElementById("output");
 
 function displayWelcome(name, age){
