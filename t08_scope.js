@@ -21,8 +21,12 @@ console.log=(food);
 let cars = ["bmw m4", "gtr r35", "mustang gt"];
 console.log=(cars)
 
-let 
-const output = document.getElementById("output");
+var number1 = 8;
+var number2 = 16;
+var answer;
+
+
+const OUTPUT = document.getElementById("output");
 
 function displayWelcome(name, age){
 //Display a welcome message to the user
