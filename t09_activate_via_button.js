@@ -56,8 +56,7 @@ function start(){
     console.log("In 10 years I will be " + futureAge + " years old.");
 
     console.log("As of " + currentyear + " I am " + Userage + " years old");
-    console.log("In 10 years I will be " + futureAge + " years old");
-
+   
     console.log("I have $" + pocketmoney);
     console.log("Welcome to the shop");
 }
