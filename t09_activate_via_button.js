@@ -8,6 +8,7 @@ function writeline(){
     output.innerHTML += "<p>You are 16 years old!</p>";
 }
 
+<button onclick="start()">Start</button>
 
 console.log("running t09 activate via button js")
 console.log("Hello World!")
@@ -50,7 +51,6 @@ function start(){
     let yearborn = currentyear - Userage;
     console.log("I was born in " + yearborn);
 
-    console.log("As of " + currentyear + " I am " + Userage);
 
     let futureAge = Userage + 10;
     console.log("In 10 years I will be " + futureAge + " years old.");
