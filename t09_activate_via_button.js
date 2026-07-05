@@ -2,8 +2,9 @@
 activate via button
 ****************************/
 function writeline(cars){
-    // I am Harsh were born in India
+    // I am Harsh. I was born in India.
     output.innerHTML += "<p>Less code matters</p>";
+
   }
 
 
