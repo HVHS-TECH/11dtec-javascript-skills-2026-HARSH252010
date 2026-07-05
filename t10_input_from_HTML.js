@@ -46,6 +46,19 @@ function start(){
 
        writeline();
 
+
+
+
+    function getFormInput(){
+
+    const NAME_FIELD = document.getElementById("nameField");
+
+    let userName = NAME_FIELD.value;
+
+    output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
+
+}
+
     console.log("Hi " + Username);
 
     let yearborn = currentyear - Userage;
