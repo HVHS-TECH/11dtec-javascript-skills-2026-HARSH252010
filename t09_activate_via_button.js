@@ -8,16 +8,16 @@ function writeline(){
     output.innerHTML += "<p>You are 16 years old!</p>";
 }
 
-<button onclick="start()">Start</button>
 
-console.log("running t09 activate via button js")
+
+console.log("Running_t09_activate_via_button.js");
 console.log("Hello World!")
 
 
-let Username= "Harsh"
-let Userage=16;
-let pocketmoney=20;
-let currentyear= 2036;
+let Username = "Harsh";
+let Userage = 16;
+let pocketmoney = 20;
+let currentyear = 2036;
 
 const output = document.getElementById("spaceForJavaScriptOutput");
 output.innerHTML += "<p>Added by JavaScript</p>";
