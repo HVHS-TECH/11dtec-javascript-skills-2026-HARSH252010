@@ -1,11 +1,12 @@
 /****************************
 activate via button
 ****************************/
-function writeline(cars){
+function writeline(){
     // I am Harsh. I was born in India.
     output.innerHTML += "<p>Less code matters</p>";
-
-  }
+    output.innerHTML += "<p>Welcome to the page, Harsh!</p>";
+    output.innerHTML += "<p>You are 16 years old!</p>";
+}
 
 
 console.log("running t09 activate via button js")
