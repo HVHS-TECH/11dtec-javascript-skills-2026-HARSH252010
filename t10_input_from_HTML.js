@@ -10,7 +10,7 @@ function writeline(){
 
 
 
-console.log("Running_t10_activate_via_button.js");
+console.log("Running t10_input_from_HTML.js");
 console.log("Working with input from HTML in JavaScript")
 
 
