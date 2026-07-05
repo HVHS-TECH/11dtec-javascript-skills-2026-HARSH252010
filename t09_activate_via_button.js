@@ -51,4 +51,9 @@ console.log("Welcome to the shop")
 Functions
 ****************************/
 
+function start(){
+    console.log("Caution Button was clicked!");
+    output.innerHTML += "<p>Caution Button was clicked!</p>";
+}
+
 
