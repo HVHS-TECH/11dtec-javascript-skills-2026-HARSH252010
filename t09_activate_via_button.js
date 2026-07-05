@@ -34,15 +34,15 @@ writeline();
 
 
 console.log("Hi " + Username);
-console.log("As of 2010 +  i am 16 ");
+
 let yearborn = currentyear - Userage;
 console.log("I was born in " + yearborn);
-
+console.log("As of " + currentyear + " I am " + Userage);
 let futureAge = Userage + 10;
 console.log("In 10 years I will be " + futureAge + " years old.");
-console.log("As of 2010 i am 16 years old");
-console.log("In 10 years i will be 26 years old");
-console.log("i have 20 dollors");
+console.log("As of " + currentyear + " I am " + Userage + " years old");
+console.log("In 10 years I will be " + futureAge + " years old");
+console.log("I have $" + pocketmoney);
 console.log("Welcome to the shop")
 
 
