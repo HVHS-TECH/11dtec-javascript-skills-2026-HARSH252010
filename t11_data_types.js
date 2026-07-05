@@ -63,9 +63,19 @@ function start(){
 function getFormInput(){
 
     const NAME_FIELD = document.getElementById("nameField");
+    const AGE_FIELD = document.getElementById("ageField");
+    const MONEY_FIELD = document.getElementById("moneyField");
 
     let userName = NAME_FIELD.value;
 
+    let userAge = Number(AGE_FIELD.value);
+    let userMoney = Number(MONEY_FIELD.value);
+
     output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
+    output.innerHTML += "<p>You are " + userAge + " years old.</p>";
+    output.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 
 }
+
+    
+
