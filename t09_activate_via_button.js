@@ -48,7 +48,7 @@ console.log("Welcome to the shop")
 
 
 /****************************
-Functions
+activate via button
 ****************************/
 
 function start(){
