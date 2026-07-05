@@ -16,14 +16,26 @@ let age = 16;
 console.log(age);
 
 let food = ["pizza", "drink", "fruit"];
-console.log=(food);
+console.log(food);
 
 let cars = ["bmw m4", "gtr r35", "mustang gt"];
-console.log=(cars)
+console.log(cars)
 
 var number1 = 8;
 var number2 = 16;
 var answer;
+
+answer = number1 + number2;
+console.log("add: " + answer);
+
+answer = number1 - number2;
+console.log("subtract: " + answer);
+
+answer = number1 * number2;
+console.log("multiply: " + answer);
+
+answer = number1 / number2;
+console.log("divide: " + answer);
 
 
 const OUTPUT = document.getElementById("output");
