@@ -30,7 +30,7 @@ output.innerHTML += "<p>Today is a good day to learn JavaScript.</p>";
 /****************************
 Main code
 ****************************/
-writeline()
+writeline();
 
 
 console.log("Hii + Harsh");
