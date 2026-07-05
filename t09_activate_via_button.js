@@ -22,7 +22,7 @@ let currentyear = 2036;
 const output = document.getElementById("spaceForJavaScriptOutput");
 output.innerHTML += "<p>Added by JavaScript</p>";
 output.innerHTML += "<p>Hello, Harsh!</p>";
-output.innerHTML += "<p>Today is a good day to learn JavaScript.</p>";
+output.innerHTML += "<p>Today, we are learning Javascript.</p>";
 
 
  
