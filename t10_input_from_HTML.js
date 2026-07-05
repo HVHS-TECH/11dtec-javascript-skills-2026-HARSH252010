@@ -44,12 +44,23 @@ function start(){
     console.log("Caution Button was clicked!");
     output.innerHTML += "<p>Caution Button was clicked!</p>";
 
-       writeline();
+    writeline();
 
+    console.log("Hi " + Username);
 
+    let yearborn = currentyear - Userage;
+    console.log("I was born in " + yearborn);
 
+    let futureAge = Userage + 10;
+    console.log("In 10 years I will be " + futureAge + " years old.");
 
-    function getFormInput(){
+    console.log("As of " + currentyear + " I am " + Userage + " years old");
+
+    console.log("I have $" + pocketmoney);
+    console.log("Welcome to the shop");
+}
+
+function getFormInput(){
 
     const NAME_FIELD = document.getElementById("nameField");
 
@@ -58,21 +69,3 @@ function start(){
     output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
 
 }
-
-    console.log("Hi " + Username);
-
-    let yearborn = currentyear - Userage;
-    console.log("I was born in " + yearborn);
-
-
-    let futureAge = Userage + 10;
-    console.log("In 10 years I will be " + futureAge + " years old.");
-
-    console.log("As of " + currentyear + " I am " + Userage + " years old");
-   
-    console.log("I have $" + pocketmoney);
-    console.log("Welcome to the shop");
-}
-
-
-
