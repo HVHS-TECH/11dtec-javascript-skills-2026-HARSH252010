@@ -9,9 +9,8 @@ function writeline(){
 }
 
 
-
-console.log("Running t12_conditionals.js");
-console.log("Working with conditional statements in JavaScript");
+console.log("Running t13_functions_return.js");
+console.log("Working with functions return in JavaScript");
 
 
 let Username = "Harsh";
@@ -78,14 +77,18 @@ function getFormInput(){
 
     if (userMoney >= 4) {
 
-        output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
+    output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
 
-    }
-    else {
+    let change = calculateChange(userMoney, 4);
 
-        output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
+    output.innerHTML += "<p>You will get $" + change + " change.</p>";
 
-    }
+}
+else {
+
+    output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
+
+}
 
 }
 
