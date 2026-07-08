@@ -1,5 +1,5 @@
 /****************************
-input from html
+Data types
 ****************************/
 function writeline(){
     // I am Harsh. I was born in India.
