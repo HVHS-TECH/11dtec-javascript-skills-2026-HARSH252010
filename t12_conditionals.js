@@ -36,7 +36,7 @@ Main code
 
 
 /****************************
-Data types
+Conditionals
 ****************************/
 
 function start(){
