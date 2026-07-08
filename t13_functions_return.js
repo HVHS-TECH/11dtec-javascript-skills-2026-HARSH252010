@@ -90,5 +90,10 @@ else {
 
 }
 
+function calculateChange(money, price){
+
+    return money - price;
+
+}
 }
 
