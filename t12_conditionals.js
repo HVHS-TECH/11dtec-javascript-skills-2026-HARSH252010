@@ -1,5 +1,5 @@
 /****************************
-Data types
+Conditionals 
 ****************************/
 function writeline(){
     // I am Harsh. I was born in India.
@@ -10,8 +10,8 @@ function writeline(){
 
 
 
-console.log("Running t11_data_types.js");
-console.log("Working with data types in JavaScript");
+console.log("Running t12_conditionals.js");
+console.log("Working with conditional statements in JavaScript");
 
 
 let Username = "Harsh";
