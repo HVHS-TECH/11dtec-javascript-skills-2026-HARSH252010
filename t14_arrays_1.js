@@ -61,29 +61,23 @@ function start(){
 
 function getFormInput(){
 
+    output.innerHTML = "";
+
     const NAME_FIELD = document.getElementById("nameField");
     const AGE_FIELD = document.getElementById("ageField");
     const MONEY_FIELD = document.getElementById("moneyField");
+    const CHOOSE_FIELD = document.getElementById("chooseField");
 
     let userName = NAME_FIELD.value;
     let userAge = Number(AGE_FIELD.value);
     let userMoney = Number(MONEY_FIELD.value);
-   
-    const CHOOSE_FIELD = document.getElementById("chooseField");
-
-let choice = Number(CHOOSE_FIELD.value);
+    let choice = Number(CHOOSE_FIELD.value);
 
     output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
     output.innerHTML += "<p>You are " + userAge + " years old.</p>";
     output.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 
     output.innerHTML += "<p>A chocolate bar costs $4.</p>";
-    let chocolateArray = [
-    "You loathe chocolate.",
-    "Chocolate is okay.",
-    "Chocolate is pretty good.",
-    "Chocolate is the best thing EVER!!!"
-];
 
     if (userMoney >= 4) {
 
@@ -91,7 +85,7 @@ let choice = Number(CHOOSE_FIELD.value);
 
         let change = calculateChange(userMoney, 4);
 
-        output.innerHTML += "<p>You will get $" + change + " change.</p>";
+        output.innerHTML += "<p>You will get $" + change.toFixed(2) + " change.</p>";
 
     }
     else {
@@ -100,10 +94,22 @@ let choice = Number(CHOOSE_FIELD.value);
 
     }
 
-}
+    let chocolateArray = [
+        "You loathe chocolate.",
+        "Chocolate is okay.",
+        "Chocolate is pretty good.",
+        "Chocolate is the best thing EVER!!!"
+    ];
 
-function calculateChange(money, price){
+    if (choice >= 0 && choice <= 3) {
 
-    return money - price;
+        output.innerHTML += "<p>" + chocolateArray[choice] + "</p>";
+
+    }
+    else {
+
+        output.innerHTML += "<p>Please enter a number between 0 and 3.</p>";
+
+    }
 
 }
