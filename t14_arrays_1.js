@@ -68,6 +68,10 @@ function getFormInput(){
     let userName = NAME_FIELD.value;
     let userAge = Number(AGE_FIELD.value);
     let userMoney = Number(MONEY_FIELD.value);
+   
+    const CHOOSE_FIELD = document.getElementById("chooseField");
+
+let choice = Number(CHOOSE_FIELD.value);
 
     output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
     output.innerHTML += "<p>You are " + userAge + " years old.</p>";
