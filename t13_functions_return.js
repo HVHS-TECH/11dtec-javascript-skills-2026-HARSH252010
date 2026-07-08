@@ -77,16 +77,18 @@ function getFormInput(){
 
     if (userMoney >= 4) {
 
-    output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
+        output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
 
-    let change = calculateChange(userMoney, 4);
+        let change = calculateChange(userMoney, 4);
 
-    output.innerHTML += "<p>You will get $" + change + " change.</p>";
+        output.innerHTML += "<p>You will get $" + change + " change.</p>";
 
-}
-else {
+    }
+    else {
 
-    output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
+        output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
+
+    }
 
 }
 
@@ -95,5 +97,3 @@ function calculateChange(money, price){
     return money - price;
 
 }
-}
-
