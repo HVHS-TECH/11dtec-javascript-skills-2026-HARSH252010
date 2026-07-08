@@ -78,6 +78,12 @@ let choice = Number(CHOOSE_FIELD.value);
     output.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
 
     output.innerHTML += "<p>A chocolate bar costs $4.</p>";
+    let chocolateArray = [
+    "You loathe chocolate.",
+    "Chocolate is okay.",
+    "Chocolate is pretty good.",
+    "Chocolate is the best thing EVER!!!"
+];
 
     if (userMoney >= 4) {
 
