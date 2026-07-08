@@ -74,8 +74,20 @@ function getFormInput(){
     output.innerHTML += "<p>Welcome to my page, " + userName + "!</p>";
     output.innerHTML += "<p>You are " + userAge + " years old.</p>";
     output.innerHTML += "<p>You have $" + userMoney + " in your bank account.</p>";
+    output.innerHTML += "<p>A chocolate bar costs $4.</p>";
 
 }
+if (userMoney >= 4) {
+
+    output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
+
+}
+else {
+
+    output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
+
+}
+
 
     
 
