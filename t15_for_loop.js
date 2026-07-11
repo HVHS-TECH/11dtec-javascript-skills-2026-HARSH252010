@@ -4,18 +4,18 @@ for loop
 console.log("Running t15_for_loop.js");
 console.log("Working with for loops in JavaScript");
 
-//Variables
-
+// Variables
+const output = document.getElementById("spaceForJavaScriptOutput");
 
 /****************************
 Main Code
 ****************************/
-  
- /****************************
-  for loop
-  ****************************/
 
-  function singSong(){
+
+/****************************
+for loop
+****************************/
+function singSong(){
 
     output.innerHTML = "";
 
