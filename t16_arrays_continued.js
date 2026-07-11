@@ -9,8 +9,8 @@ function writeline(){
 }
 
 
-console.log("Running t14_arrays_1.js");
-console.log("Working with arrays in JavaScript");
+console.log("Running t16_arrays_continued.js");
+console.log("Working with arrays continued in JavaScript");
 
 
 let Username = "Harsh";
