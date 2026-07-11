@@ -1,5 +1,5 @@
 /****************************
-Arrays
+Arrays Continued
 ****************************/
 function writeline(){
     // I am Harsh. I was born in India.
@@ -8,10 +8,8 @@ function writeline(){
     output.innerHTML += "<p>You are 16 years old!</p>";
 }
 
-
 console.log("Running t16_arrays_continued.js");
 console.log("Working with arrays continued in JavaScript");
-
 
 let Username = "Harsh";
 let Userage = 16;
@@ -19,23 +17,18 @@ let pocketmoney = 20;
 let currentyear = 2036;
 
 const output = document.getElementById("spaceForJavaScriptOutput");
+
 output.innerHTML += "<p>Added by JavaScript</p>";
 output.innerHTML += "<p>Hello, Harsh!</p>";
-output.innerHTML += "<p>Today, we are learning Javascript.</p>";
-
-
- 
-
+output.innerHTML += "<p>Today, we are learning JavaScript.</p>";
 
 /****************************
-Main code
+Shopping List Array
 ****************************/
-
-
-
+let shoppingList = [];
 
 /****************************
-Arrays 
+Functions
 ****************************/
 
 function start(){
@@ -79,7 +72,7 @@ function getFormInput(){
 
     output.innerHTML += "<p>A chocolate bar costs $4.</p>";
 
-    if (userMoney >= 4) {
+    if (userMoney >= 4){
 
         output.innerHTML += "<p>You CAN afford a chocolate bar.</p>";
 
@@ -87,8 +80,7 @@ function getFormInput(){
 
         output.innerHTML += "<p>You will get $" + change.toFixed(2) + " change.</p>";
 
-    }
-    else {
+    }else{
 
         output.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar.</p>";
 
@@ -101,20 +93,46 @@ function getFormInput(){
         "Chocolate is the best thing EVER!!!"
     ];
 
-    if (choice >= 0 && choice <= 3) {
+    if(choice >= 0 && choice <= 3){
 
         output.innerHTML += "<p>" + chocolateArray[choice] + "</p>";
 
-    }
-    else {
+    }else{
 
         output.innerHTML += "<p>Please enter a number between 0 and 3.</p>";
 
     }
 
 }
+
 function calculateChange(money, price){
 
     return money - price;
+
+}
+
+function addItem(){
+
+    const ITEM_FIELD = document.getElementById("itemField");
+
+    let item = ITEM_FIELD.value;
+
+    shoppingList.push(item);
+
+    output.innerHTML += "<p>You have added " + item + " to the list.</p>";
+
+    ITEM_FIELD.value = "";
+
+}
+
+function showList(){
+
+    output.innerHTML += "<h3>These are the items on your shopping list:</h3>";
+
+    for(let i = 0; i < shoppingList.length; i++){
+
+        output.innerHTML += "<p>" + shoppingList[i] + "</p>";
+
+    }
 
 }
