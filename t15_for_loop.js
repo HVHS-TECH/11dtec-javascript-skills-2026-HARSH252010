@@ -8,7 +8,7 @@ console.log("Working with for loops in JavaScript");
 
 
 /****************************
-Cars city
+Main Code
 ****************************/
   
  /****************************
